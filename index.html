@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="">
+  <meta name="format-detection" content="telephone=no">
+  <title>長崎こども麻雀教室 VEZA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#D6D2CD] text-gray-800">
+  <!-- ===== ヘッダー ===== -->
+  <header class="site-header">
+    <div class="flex justify-between items-center px-6 py-4 bg-[#fff8e8]">
+      <div class="flex items-center gap-3">
+        <img src="./asset/img/logo_main.png" class="w-14 h-14" alt="ロゴ" />
+        <p class="text-sm">長崎こども<br />麻雀教室</p>
+      </div>
+      <nav class="flex gap-6 text-sm">
+        <a href="about.html">教室紹介</a>
+        <a href="price.html">料金</a>
+        <a href="schedule.html">スケジュール</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ヒーロー ===== -->
+   <h2 class="text-lg mb-4">準備中　内容は変更になる場合があります</h2>
+   
+  <section class="relative h-[500px] bg-teal-600 flex items-center justify-center">
+    <div class="text-center text-white">
+      <h1 class="text-3xl font-bold mb-4">楽しみながら考える力を育てる</h1>
+      <p class="mb-6">初心者でも安心のこども麻雀教室</p>
+      <a href="about.html" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold">
+        まずは教室を覗いてみる
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== タブ導線 ===== -->
+  <section class="px-6 py-10 bg-[#2F8F89] text-white">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="#mahjong" class="bg-pink-300 text-black p-4 rounded-full text-center">
+        <span class="hidden md:block">麻雀ってどんなゲーム？</span>
+        <span class="md:hidden">麻雀とは？</span>
+      </a>
+
+      <!-- <span class="md:hidden">何歳から？</span> -->
+      <!-- <span class="hidden md:block">何歳からできるの？</span> -->
+      <a href="#age" class="bg-green-300 text-black p-4 rounded-full text-center">
+        <span class="hidden md:block">何歳からできるの？</span>
+        <span class="md:hidden">何歳から？</span>
+      </a>
+
+      <a href="#money" class="bg-blue-300 text-black p-4 rounded-full text-center">
+        <span class="hidden md:block">お金をかけてあそぶもの？</span>
+        <span class="md:hidden">賭け事？</span>
+      </a>
+
+      <a href="#beginner" class="bg-purple-300 text-black p-4 rounded-full text-center">
+        <span class="hidden md:block">初めてでも大丈夫？</span>
+        <span class="md:hidden">初心者OK？</span>
+      </a>
+    </div>
+  </section>
+  <!-- ===== タブセクション全体 ===== -->
+  <section class="bg-[#2F8F89] text-gray-800 py-16 px-4">
+    <!-- ===== 各コンテンツ ===== -->
+    <div class="max-w-4xl mx-auto space-y-16">
+      <!-- 麻雀とは -->
+      <div id="mahjong" class="bg-[#D6D2CD] p-8 rounded-3xl shadow-lg">
+        <h2 class="text-xl font-bold mb-4">麻雀ってどんなゲーム？</h2>
+        <p class="mb-4">
+          麻雀は136枚の牌を使って遊ぶゲームです。<br />
+          「同じ形」をそろえて「あがり」を目指します。
+        </p>
+        <p>
+          萬子・筒子・索子などの牌を使い、<br />
+          決まった組み合わせを作ることで勝敗が決まります。
+        </p>
+      </div>
+
+      <!-- 年齢 -->
+      <div id="age" class="bg-[#D6D2CD] p-8 rounded-3xl shadow-lg">
+        <h2 class="text-xl font-bold mb-4">何歳からできるの？</h2>
+        <p>
+          小学1年生くらいから楽しめます。<br />
+          トランプができれば、ルール理解もスムーズです。
+        </p>
+      </div>
+
+      <!-- お金 -->
+      <div id="money" class="bg-[#D6D2CD] p-8 rounded-3xl shadow-lg">
+        <h2 class="text-xl font-bold mb-4">麻雀はお金をかけるの？</h2>
+        <p class="mb-4">当教室では「健康麻雀」を採用しています。</p>
+        <p>
+          賭けない・飲まない・吸わないをルールに、<br />
+          安心して楽しめる環境です。
+        </p>
+      </div>
+
+      <!-- 初心者 -->
+      <div id="beginner" class="bg-[#D6D2CD] p-8 rounded-3xl shadow-lg">
+        <h2 class="text-xl font-bold mb-4">初めてでも大丈夫？</h2>
+        <p>
+          初心者でも大丈夫です。<br />
+          ルール説明から丁寧に進めていきます。
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="text-center text-sm py-4">&copy; 2026 Fortress Junk</div>
+  </footer>
+</body>
+
+</html>
